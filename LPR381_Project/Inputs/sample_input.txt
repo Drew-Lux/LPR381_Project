@@ -1,0 +1,11 @@
+﻿using System;
+namespace LPR381_Project.Inputs
+{
+    public class sample_input
+    {
+        public sample_input()
+        {
+        }
+    }
+}
+
