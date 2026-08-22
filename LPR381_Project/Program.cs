@@ -2,6 +2,7 @@
 using System.Reflection;
 using LPR381_Project.Parsers;
 using LPR381_Project.Algorithims;
+using LPR381_Project.Algorithms;
 
 namespace LPR381_Project
 {
@@ -32,6 +33,8 @@ namespace LPR381_Project
                 int rowCount = canonicalModel.ConstraintMatrix.GetLength(0);
                 int colCount = canonicalModel.ConstraintMatrix.GetLength(1);
                 Console.WriteLine($"{rowCount} rows x {colCount} columns");
+
+                SimplexSolver.Solve(canonicalModel);
             }
             catch(Exception ex)
             {
