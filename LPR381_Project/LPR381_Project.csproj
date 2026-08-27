@@ -15,9 +15,7 @@
     <None Remove="Inputs\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Models\" />
     <Folder Include="Parsers\" />
-    <Folder Include="Algorithims\" />
     <Folder Include="Utilities\" />
     <Folder Include="Inputs\" />
   </ItemGroup>
